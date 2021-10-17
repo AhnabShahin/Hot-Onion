@@ -1,0 +1,16 @@
+.mealCategory{
+    display: flex;
+    justify-content: center;
+}
+.mealCategoryItems {
+    border-bottom: 2px solid crimson;
+    background-color: white;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.active{
+    color: white;
+    background-color: crimson;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
